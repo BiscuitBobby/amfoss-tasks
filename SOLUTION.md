@@ -36,4 +36,18 @@ find . -name athens.txt --> 031
 
 password
 
+removing part 1,2,3 and 4 -->
+
+git rm solution/* --dry-run
+
+rm 'solution/part1'
+
+rm 'solution/part2'
+
+rm 'solution/part3'
+
+rm 'solution/part4'
+
 on concantinating --> 107562749031
+
+![Screenshot from 2022-11-04 00-16-36](https://user-images.githubusercontent.com/87699062/199810813-3b956452-1488-4d01-a2ef-87804eb22417.png)
