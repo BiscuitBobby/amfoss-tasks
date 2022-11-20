@@ -4,7 +4,7 @@ class bg extends SpriteComponent with HasGameRef {
   @override
   Future<void> onLoad() async {
     super.onLoad();
-    sprite = await gameRef.loadSprite('/assets/images/background.png');
+    sprite = await gameRef.loadSprite('background.png');
     size = sprite!.originalSize;
   }
 }

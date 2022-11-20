@@ -5,6 +5,7 @@ import 'rabbitgame.dart';
 
 void main() {
   final game = Rabbitgame();
+  keys();
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
@@ -16,7 +17,9 @@ void main() {
             ),
             Align(
               alignment: Alignment.bottomRight,
-              child: NavigationKeys(onDirectionChanged: game.onArrowKeyChanged,),
+              child: NavigationKeys(
+                onDirectionChanged: game.onArrowKeyChanged,
+              ),
             ),
           ],
         ),

@@ -2,15 +2,15 @@ import 'package:flame/components.dart';
 import 'package:untitled/supplements/directions.dart';
 
 class bunny extends SpriteComponent with HasGameRef {
-  bunny() : super(size: Vector2.all(100.0));
+  bunny() : super(size: Vector2.all(140.0));
 
   @override
   Future<void> onLoad() async {
     super.onLoad();
-    sprite = await gameRef.loadSprite('/assets/images/player.png');
+    sprite = await gameRef.loadSprite('player.png');
     position = gameRef.size / 2;
-
   }
+
   Direction direction = Direction.none;
 
   @override
@@ -22,16 +22,16 @@ class bunny extends SpriteComponent with HasGameRef {
   updatePosition(double dt) {
     switch (direction) {
       case Direction.up:
-        position.y --;
+        position.y -= 12;
         break;
       case Direction.down:
-        position.y ++;
+        position.y += 12;
         break;
       case Direction.left:
-        position.x --;
+        position.x -= 12;
         break;
       case Direction.right:
-        position.x ++;
+        position.x += 12;
         break;
       case Direction.none:
         break;

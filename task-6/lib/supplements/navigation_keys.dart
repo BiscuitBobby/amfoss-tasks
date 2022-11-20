@@ -1,6 +1,8 @@
-import 'package:flutter/gestures.dart';
+import 'package:flame/components.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'directions.dart';
+import 'package:untitled/supplements/directions.dart';
 
 class NavigationKeys extends StatefulWidget {
   final ValueChanged<Direction>? onDirectionChanged;
@@ -95,6 +97,40 @@ class _NavigationKeysState extends State<NavigationKeys> {
   void updateDirection(Direction newDirection) {
     direction = newDirection;
     widget.onDirectionChanged!(direction);
+  }
+}
+
+class keys extends SpriteComponent with KeyboardHandler {
+  Direction direction = Direction.none;
+  static const vel = 12;
+
+  @override
+  void update(double dt) {
+    super.update(dt);
+  }
+
+  bool onKeyEvent(
+    RawKeyEvent event,
+    Set<LogicalKeyboardKey> keysPressed,
+  ) {
+    final isKeyDown = event is RawKeyDownEvent;
+
+    if (keysPressed.contains(LogicalKeyboardKey.arrowLeft) && isKeyDown) {
+      (Direction.left);
+    }
+
+    if (keysPressed.contains(LogicalKeyboardKey.arrowRight) && isKeyDown) {
+      (Direction.right);
+    }
+
+    if (keysPressed.contains(LogicalKeyboardKey.arrowUp) && isKeyDown) {
+      position.y -= 12;
+    }
+
+    if (keysPressed.contains(LogicalKeyboardKey.arrowDown) && isKeyDown) {
+      position.y += 12;
+    }
+    return true;
   }
 }
 
