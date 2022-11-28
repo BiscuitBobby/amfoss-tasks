@@ -5,7 +5,6 @@ import 'rabbitgame.dart';
 
 void main() {
   final game = Rabbitgame();
-  keys();
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,

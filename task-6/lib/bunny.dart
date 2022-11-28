@@ -8,7 +8,7 @@ class bunny extends SpriteComponent with HasGameRef {
   Future<void> onLoad() async {
     super.onLoad();
     sprite = await gameRef.loadSprite('player.png');
-    position = gameRef.size / 2;
+    position = gameRef.size / 3;
   }
 
   Direction direction = Direction.none;
