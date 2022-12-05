@@ -41,8 +41,8 @@ func Reset(this js.Value, i []js.Value) interface{} {
 	println("initialized bob")
 
 	document := js.Global().Get("document")
-	document.Call("getElementById", "int").Set("innerHTML", "GO!")
 	Count = 0
+	document.Call("getElementById", "int").Set("innerHTML", Count)
 
 	return Count
 }

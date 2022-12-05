@@ -11,8 +11,7 @@
 
     <script>
       const go = new Go();
-
-let mod, inst;
+	  let mod, inst;
 
 WebAssembly.instantiateStreaming(fetch("lib.wasm"), go.importObject).then(
   result => {
