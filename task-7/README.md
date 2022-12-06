@@ -1,3 +1,4 @@
+![demo gif](demo.gif "Demo")  
 # Go-Wasm
 We assume that you have had a skimming📑 on **What, Why, and How Web Assembly?** Well, if you haven't already, take a look at this awesome [article](https://developer.mozilla.org/en-US/docs/WebAssembly) and come back here. \
 This task is all about completing the Go script given to you and deploying the model on the web. To ease things for you, we have broken down the task into 4 simple steps:  
