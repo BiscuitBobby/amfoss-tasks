@@ -11,7 +11,7 @@ le tasks
 [Task-06](https://github.com/BiscuitBobby/amfoss-tasks/tree/main/task-06)|Flutter-flame game|Completed
 [Task-07](https://github.com/BiscuitBobby/amfoss-tasks/tree/main/task-07)|GO-WASM|Completed
 [Task-08](https://github.com/BiscuitBobby/amfoss-tasks/tree/main/task-08)|Internet explorer|Completed
-[Task-09](https://github.com/BiscuitBobby/amfoss-tasks/tree/main/task-09)|Krypto scraper|Completed
+[Task-09](https://github.com/BiscuitBobby/amfoss-tasks/tree/main/task-09/web_scraper)|Krypto scraper|Completed
 [Task-10](https://github.com/BiscuitBobby/amfoss-tasks/tree/main/task-10)|CS50|done with pset 1,2,3 (didn't use cs50 library)
 [Task-14](https://github.com/Akshatji800/amfoss-tasks-demo/tree/master/task-14)|Bandit|just started
 
