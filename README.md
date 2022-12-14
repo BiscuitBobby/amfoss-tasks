@@ -13,7 +13,7 @@ le tasks
 [Task-08](https://github.com/BiscuitBobby/amfoss-tasks/tree/main/task-08)|Internet explorer|Completed
 [Task-09](https://github.com/BiscuitBobby/amfoss-tasks/tree/main/task-09/web_scraper)|Krypto scraper|Completed
 [Task-10](https://github.com/BiscuitBobby/amfoss-tasks/tree/main/task-10)|CS50|done with pset 1,2,3 (didn't use cs50 library)
-[Task-14](https://github.com/BiscuitBobby/amfoss-tasks/tree/main/task-14)|Bandit|just started
+[Task-14](https://github.com/BiscuitBobby/amfoss-tasks/tree/main/task-14)|Bandit|Completed
 
 ![imma-bee-bee](https://user-images.githubusercontent.com/87699062/206778100-6833af6d-df9c-469b-a86a-cb1a9301d784.gif)
 
